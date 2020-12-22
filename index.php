@@ -44,10 +44,10 @@
 
     <?php
       if ($controlChar > 3 && $controlAt !== false && $controlDot !==false && $controlNum == 1){
-        echo "Accesso riuscito";
+        echo "Nome:" . " " . $getName . '<br>' . "Mail:" . " " . $getMail . '<br>' . "Età:" . " " . $getAge . '<br>' . "Accesso riuscito :)";
       } 
       else {
-        echo "Accesso negato";
+        echo "Accesso negato :(";
       }
     ?>
 
